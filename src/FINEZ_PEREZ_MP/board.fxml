@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1024.0" style="-fx-background-color: #013220;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FINEZ_PEREZ_MP.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="112.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="177.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="307.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="372.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="531.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="177.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="372.0" layoutY="531.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="372.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="307.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="437.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="502.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="567.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="632.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="697.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="762.0" layoutY="531.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="827.0" layoutY="531.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="531.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="762.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="892.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="762.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="892.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="45.0" layoutX="892.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="827.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="892.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="892.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="827.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="762.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="762.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="762.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="697.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="632.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="567.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="502.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="45.0" layoutX="437.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="372.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="307.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="697.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="632.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="567.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="502.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="437.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="372.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="307.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="242.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="242.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="177.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="MAGENTA" height="45.0" layoutX="47.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="47.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="47.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="47.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="112.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="177.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIME" height="45.0" layoutX="242.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="45.0" layoutX="307.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a" height="45.0" layoutX="307.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Text layoutX="459.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THAT'S LIFE!">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="51.0" />
+         </font>
+      </Text>
+      <Text layoutX="456.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THAT'S LIFE!">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="51.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#868686" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button fx:id="rollButton" disable="true" layoutX="378.0" layoutY="244.0" mnemonicParsing="false" onAction="#rollDice" prefHeight="59.0" prefWidth="77.0" text="ROLL NUMBER" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="125.0" layoutY="411.0" text="START">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="396.0" prefHeight="45.0" prefWidth="51.0" text="College Path" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="441.0" prefHeight="45.0" prefWidth="51.0" text="Career Path" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="485.0" prefHeight="45.0" prefWidth="60.0" text="Graduation" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="379.0" layoutY="531.0" prefHeight="45.0" prefWidth="51.0" text="College Career Choice" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="576.0" prefHeight="45.0" prefWidth="51.0" text="Get Married" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="576.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="704.0" layoutY="576.0" prefHeight="45.0" prefWidth="51.0" text="Pay Raise" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="531.0" prefHeight="45.0" prefWidth="51.0" text="Which Path?" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="486.0" prefHeight="45.0" prefWidth="51.0" text="Ordinary Path" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="834.0" layoutY="531.0" prefHeight="45.0" prefWidth="51.0" text="Job Search" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="441.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="441.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="351.0" prefHeight="45.0" prefWidth="51.0" text="Pay Raise" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="261.0" prefHeight="45.0" prefWidth="51.0" text="Pay Raise" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="216.0" prefHeight="45.0" prefWidth="51.0" text="Buy a House" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="834.0" layoutY="126.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="126.0" prefHeight="45.0" prefWidth="51.0" text="Which Path?" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="171.0" prefHeight="45.0" prefWidth="51.0" text="Ordinary Path" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="769.0" layoutY="81.0" prefHeight="45.0" prefWidth="51.0" text="Get Married" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="639.0" layoutY="81.0" prefHeight="45.0" prefWidth="51.0" text="Buy a House" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="574.0" layoutY="171.0" prefHeight="45.0" prefWidth="51.0" text="Pay Raise" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="379.0" layoutY="171.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="81.0" prefHeight="45.0" prefWidth="51.0" text="Have Twins" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="249.0" layoutY="171.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="126.0" prefHeight="45.0" prefWidth="51.0" text="Have Baby" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="216.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="249.0" layoutY="261.0" prefHeight="45.0" prefWidth="51.0" text="Pay Day" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="321.0" text="RETIREMENT">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="10.0" />
+         </font>
+      </Label>
+      <Circle fx:id="Player1_Peg" fill="RED" layoutX="127.0" layoutY="410.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="Player2_Peg" fill="#02cfd6" layoutX="163.0" layoutY="410.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="Player3_Peg" fill="#ffeb00" layoutX="145.0" layoutY="427.0" onMouseReleased="#startTwo" radius="11.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="59.0" layoutX="462.0" layoutY="245.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Label fx:id="rollLabel" alignment="CENTER" layoutX="462.0" layoutY="247.0" prefHeight="49.0" prefWidth="77.0" text="0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="42.0" />
+         </font>
+      </Label>
+      <Pane fx:id="Player1_Pane" layoutX="378.0" layoutY="342.0" prefHeight="136.0" prefWidth="122.0" style="-fx-background-color: #ffffff; -fx-border-color: #ff0000;" visible="false">
+         <children>
+            <Text fill="RED" layoutX="6.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" wrappingWidth="68.3125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="6.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cash: &#10;Loan: &#10;&#10;Salary: &#10;Tax Due: &#10;&#10;Married: &#10;House: &#10;Children: ">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Text>
+            <Label fx:id="Player1_Job" layoutX="6.0" layoutY="23.0" text="Job Label" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_Cash" layoutX="33.0" layoutY="37.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_Loan" layoutX="33.0" layoutY="47.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_Salary" layoutX="46.0" layoutY="68.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_TaxDue" layoutX="46.0" layoutY="78.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_Married" layoutX="49.0" layoutY="98.0" text="False" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_House" layoutX="49.0" layoutY="108.0" text="None" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player1_Children" layoutX="49.0" layoutY="118.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="Player2_Pane" layoutX="506.0" layoutY="342.0" prefHeight="136.0" prefWidth="122.0" style="-fx-background-color: #ffffff; -fx-border-color: #02cfd6;" visible="false">
+         <children>
+            <Text fill="#02cfd6" layoutX="6.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" wrappingWidth="68.3125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="6.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cash: &#10;Loan: &#10;&#10;Salary: &#10;Tax Due: &#10;&#10;Married: &#10;House: &#10;Children: ">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Text>
+            <Label fx:id="Player2_Job" layoutX="6.0" layoutY="23.0" text="Job Label" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_Cash" layoutX="33.0" layoutY="37.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_Loan" layoutX="33.0" layoutY="47.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_Salary" layoutX="46.0" layoutY="68.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_TaxDue" layoutX="46.0" layoutY="78.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_Married" layoutX="49.0" layoutY="98.0" text="False" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_House" layoutX="49.0" layoutY="108.0" text="None" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2_Children" layoutX="49.0" layoutY="118.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="Player3_Pane" layoutX="633.0" layoutY="342.0" onMouseReleased="#startTwo" prefHeight="136.0" prefWidth="122.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffeb00;" visible="false">
+         <children>
+            <Text fill="#ffeb00" layoutX="6.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 3" wrappingWidth="68.3125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="6.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cash: &#10;Loan: &#10;&#10;Salary: &#10;Tax Due: &#10;&#10;Married: &#10;House: &#10;Children: ">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Text>
+            <Label fx:id="Player3_Job" layoutX="6.0" layoutY="23.0" text="Job Label" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_Cash" layoutX="33.0" layoutY="37.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_Loan" layoutX="33.0" layoutY="47.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_Salary" layoutX="46.0" layoutY="68.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_TaxDue" layoutX="46.0" layoutY="78.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_Married" layoutX="49.0" layoutY="98.0" text="False" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_House" layoutX="49.0" layoutY="108.0" text="None" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player3_Children" layoutX="49.0" layoutY="118.0" text="0" textFill="#464646">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="545.0" layoutY="223.0" prefHeight="113.0" prefWidth="209.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label fx:id="landedSpaceLabel" alignment="CENTER" layoutX="3.0" layoutY="-3.0" prefHeight="33.0" prefWidth="203.0" text="EVENT DISPLAY" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="spaceDescLabel" alignment="CENTER" layoutX="3.0" layoutY="12.0" prefHeight="33.0" prefWidth="203.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="eventLabel1" alignment="CENTER" layoutX="3.0" layoutY="42.0" prefHeight="33.0" prefWidth="203.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="eventLabel2" alignment="CENTER" layoutX="3.0" layoutY="56.0" prefHeight="33.0" prefWidth="203.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="eventLabel3" alignment="CENTER" layoutX="3.0" layoutY="70.0" prefHeight="33.0" prefWidth="203.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="eventLabel4" alignment="CENTER" layoutX="3.0" layoutY="84.0" prefHeight="33.0" prefWidth="203.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="startTheGame" layoutX="125.0" layoutY="319.0" mnemonicParsing="false" onAction="#startInBoard" prefHeight="59.0" prefWidth="168.0" text="START!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="34.0" />
+         </font>
+      </Button>
+      <Label fx:id="playerTurnDisplay" alignment="CENTER" layoutX="306.0" layoutY="14.0" prefHeight="38.0" prefWidth="457.0" text="Player 1's Turn" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="51.0" />
+         </font>
+      </Label>
+      <Button fx:id="pickPlayerButton" disable="true" layoutX="126.0" layoutY="319.0" mnemonicParsing="false" onAction="#pickButton" prefHeight="59.0" prefWidth="168.0" text="PICK!" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="blueButton" layoutX="378.0" layoutY="244.0" mnemonicParsing="false" onAction="#rollBlue" prefHeight="59.0" prefWidth="77.0" text="BLUE ROLL" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="marryRoll" layoutX="378.0" layoutY="244.0" mnemonicParsing="false" onAction="#rollMarried" prefHeight="59.0" prefWidth="77.0" text="MARRY ROLL" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="payLoanButton" disable="true" layoutX="165.0" layoutY="629.0" mnemonicParsing="false" onAction="#repayLoan" prefHeight="45.0" prefWidth="86.0" text="PAY LOAN" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="resultButton" layoutX="125.0" layoutY="319.0" mnemonicParsing="false" onAction="#displayResults" prefHeight="64.0" prefWidth="168.0" text="RESULTS!" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="261.0" layoutY="656.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Automatically deducts 25000 of your cash and loan">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="junctionPane" layoutX="112.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="65.0" layoutY="123.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="JUNCTION!&#10;Pick a path." textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="89.0" />
+               </font>
+            </Text>
+            <Button fx:id="junctionOption1" layoutX="65.0" layoutY="289.0" mnemonicParsing="false" onAction="#pathOne" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Button>
+            <Button fx:id="junctionOption2" layoutX="511.0" layoutY="289.0" mnemonicParsing="false" onAction="#pathTwo" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pickPlayerPane" layoutX="112.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="65.0" layoutY="123.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Pick a player!" textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="89.0" />
+               </font>
+            </Text>
+            <Button fx:id="playerOption1" layoutX="65.0" layoutY="144.0" mnemonicParsing="false" onAction="#pickOne" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="1" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="96.0" />
+               </font>
+            </Button>
+            <Button fx:id="playerOption2" layoutX="511.0" layoutY="144.0" mnemonicParsing="false" onAction="#pickTwo" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="2" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="96.0" />
+               </font>
+            </Button>
+            <Button fx:id="playerOption3" layoutX="288.0" layoutY="333.0" mnemonicParsing="false" onAction="#pickThree" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="3" textAlignment="CENTER" visible="false" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="96.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="65.0" layoutY="563.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Disclaimer: Nothing happens if you pick a retired player." textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changeCareerPane" layoutX="106.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="25.0" layoutY="81.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Job Search!&#10;Do you want to keep your current job?" textAlignment="CENTER" wrappingWidth="754.139892578125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="49.0" />
+               </font>
+            </Text>
+            <Button fx:id="keepJobButton" layoutX="207.0" layoutY="216.0" mnemonicParsing="false" onAction="#keepCareer" prefHeight="102.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="OLD" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+               </font>
+            </Button>
+            <Button fx:id="changeJobButton" layoutX="525.0" layoutY="217.0" mnemonicParsing="false" onAction="#changeCareer" prefHeight="102.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="NEW" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+               </font>
+            </Button>
+            <Label fx:id="oldJobLabel" alignment="CENTER" layoutX="207.0" layoutY="326.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="oldSalaryLabel" alignment="CENTER" layoutX="207.0" layoutY="409.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="oldTDLabel" alignment="CENTER" layoutX="207.0" layoutY="491.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="newJobLabel" alignment="CENTER" layoutX="525.0" layoutY="327.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="newSalaryLabel" alignment="CENTER" layoutX="525.0" layoutY="410.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="newTDLabel" alignment="CENTER" layoutX="525.0" layoutY="492.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="327.0" prefHeight="80.0" prefWidth="224.0" text="JOB" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="410.0" prefHeight="80.0" prefWidth="224.0" text="SALARY" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="492.0" prefHeight="80.0" prefWidth="224.0" text="TAX DUE" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="careerChoicePane" layoutX="106.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="25.0" layoutY="81.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="College Career Choice!&#10;Choose your career." textAlignment="CENTER" wrappingWidth="754.139892578125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="49.0" />
+               </font>
+            </Text>
+            <Button fx:id="firstJobButton" layoutX="207.0" layoutY="216.0" mnemonicParsing="false" onAction="#careerOne" prefHeight="102.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="FIRST" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="secondJobButton" layoutX="525.0" layoutY="217.0" mnemonicParsing="false" onAction="#careerTwo" prefHeight="102.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="SECOND" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+               </font>
+            </Button>
+            <Label fx:id="firstJobLabel" alignment="CENTER" layoutX="207.0" layoutY="326.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstSalaryLabel" alignment="CENTER" layoutX="207.0" layoutY="409.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstTDLabel" alignment="CENTER" layoutX="207.0" layoutY="491.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="secondJobLabel" alignment="CENTER" layoutX="525.0" layoutY="327.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="secondSalaryLabel" alignment="CENTER" layoutX="525.0" layoutY="410.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="secondTDLabel" alignment="CENTER" layoutX="525.0" layoutY="492.0" prefHeight="80.0" prefWidth="224.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="327.0" prefHeight="80.0" prefWidth="224.0" text="JOB" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="410.0" prefHeight="80.0" prefWidth="224.0" text="SALARY" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="492.0" prefHeight="80.0" prefWidth="224.0" text="TAX DUE" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="buyHousePane" layoutX="112.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="65.0" layoutY="123.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Buy a house!" textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="89.0" />
+               </font>
+            </Text>
+            <Button fx:id="apartButton" layoutX="55.0" layoutY="161.0" mnemonicParsing="false" onAction="#houseOne" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Apartment&#10;20000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="condoButton" layoutX="288.0" layoutY="161.0" mnemonicParsing="false" onAction="#houseTwo" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Condominium&#10;40000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="cabinButton" layoutX="521.0" layoutY="161.0" mnemonicParsing="false" onAction="#houseThree" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Cabin&#10;60000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="cottageButton" layoutX="55.0" layoutY="368.0" mnemonicParsing="false" onAction="#houseFour" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Cottage&#10;80000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="bungalowButton" layoutX="288.0" layoutY="368.0" mnemonicParsing="false" onAction="#houseFive" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Bungalow&#10;100000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="mansionButton" layoutX="521.0" layoutY="368.0" mnemonicParsing="false" onAction="#houseSix" prefHeight="189.0" prefWidth="224.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Mansion&#10;120000" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changeHousePane" layoutX="112.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #008a5a; -fx-border-color: #000000; -fx-border-width: 10;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="65.0" layoutY="68.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Do you want to change house?" textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="60.0" />
+               </font>
+            </Text>
+            <Button fx:id="keepHouseButton" layoutX="187.0" layoutY="181.0" mnemonicParsing="false" onAction="#keepHouse" prefHeight="124.0" prefWidth="427.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Keep house" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+               </font>
+            </Button>
+            <Button fx:id="changeHouseButton" layoutX="187.0" layoutY="347.0" mnemonicParsing="false" onAction="#buyHouse" prefHeight="124.0" prefWidth="427.0" style="-fx-border-color: #000000; -fx-border-width: 4;" text="Buy new house" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="65.0" layoutY="537.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Disclaimer: Buying a new house sells your current house&#10;Insufficient cash automatically applies you for a loan" textAlignment="CENTER" wrappingWidth="670.1399536132812">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
